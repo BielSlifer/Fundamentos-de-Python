@@ -1,0 +1,15 @@
+A função print recebe argumentos dentro de si.
+É possível passar mais de um argumento, para isso é necessário o uso da vírgula.
+Argumentos avulsos como números são chamados de argumentos não nomeados que a 
+função print recebe.
+A função print por padrão faz coisas como separar dois argumentos passados, mais
+você pode mudar isso utilizando separadores. 
+Por exemplo: print(12, 34, sep="-")
+Esse código faria com com os dois argumentos tivessem um traço no meio ao invés
+de um espaço padrão. Você pode passar qualquer coisa dentro das strings que vão
+estar no meio dos dois argumentos.
+\n é utilizado para quebra de linha.
+A função print por padrão faz uma quebra de linha, mas o parâmetro end="" pode
+ser utilizado para determinar o que vem ao final da função.
+Por exemplo end="##" faria com que a proxima função print aparecesse na frente
+da primeira com o parâmetro com as hashtags entre elas.
